@@ -14,6 +14,16 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>StringAndCharacter.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>StringAndCharacters.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>SwiftBasisStudy.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -38,6 +48,21 @@
 			<true/>
 		</dict>
 		<key>95B720401BCFEDDA005A2DA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>95EF6F2B1BD13735000E378A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>95EF6F361BD13767000E378A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>95EF6F411BD137B6000E378A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

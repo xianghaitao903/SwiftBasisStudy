@@ -91,7 +91,7 @@ StringArr[0...3] = ["23"]
 
 print("while StringArr changed, newArr is \(newArr)")
 
-//MARK:另一种测试方式
+//MARK:另一种方式测试
 
 var oldArray = [Int]();
 

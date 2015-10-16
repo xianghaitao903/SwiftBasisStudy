@@ -8,11 +8,15 @@
 
 import Foundation
 
-//Basis SourceType and init
+//Basic SourceType and init
 
 let intNumber :Int = 12;
 
 var doubleNumber :Double = 12.0;
+
+var doubleNumber1,doubleNumber2 :Double
+
+//print(doubleNumber1 + doubleNumber2)
 
 var floatNumber :Float = 12.0;
 
