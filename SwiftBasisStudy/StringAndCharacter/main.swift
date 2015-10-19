@@ -15,7 +15,7 @@ var emptyString = ""
 var anotherEmptyString = String()
 
 if emptyString.isEmpty && anotherEmptyString.isEmpty {
-    print("emptyString and anotherEmptyString are both empty")
+    //print("emptyString and anotherEmptyString are both empty")
 }
 
 //MARK: 遍历String 中的Character
@@ -24,7 +24,7 @@ var variableString = "horse"
 variableString += " and carriage😵"
 
 for character in variableString.characters {
-    print(character)
+    //print(character)
 }
 
 //MARK:通过Character 数组初始化String
@@ -32,66 +32,66 @@ let characters :[Character] = ["a"," ","d","o","g"," ","i","s"," ","l","i","k","
 
 let myString = String(characters)
 
-print(myString)
+//print(myString)
 
 //MARK:在String后面append一个字符
 let exclamationMark :Character = "🌳"
 
 variableString.append(exclamationMark)
 
-print(variableString)
+//print(variableString)
 
 //MARK: 在String后面appendContentOf 一个String
 variableString.appendContentsOf("ssss")
 
-print(variableString)
+//print(variableString)
 
 //MARK:不同类型的数据拼接成String
 let multiplier = 3
 
 var message = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
 
-print(message)
+//print(message)
 
 var message2 = String(multiplier) + " times 2.5 is " + String(Double(multiplier) * 2.5)
 
-print(message2)
+//print(message2)
 
 //MARK: - String中的特殊字符
 var unicodeString = "\\0 is \0 sss \\n is \n \\t is \t  \" \'  \u{24} "
 
-print(unicodeString)
+//print(unicodeString)
 
 var word = "12334"
 
-print(word.characters.count)
+//print(word.characters.count)
 
 let line :Character = "\n"
 
 word.append(line)
 
-print("\(word) count is \(word.characters.count)")
+//print("\(word) count is \(word.characters.count)")
 
 //MARK: - 获取String特定位置的Character
 let greeting = "Guten Tag!"
 
-print(greeting[greeting.startIndex])
+//print(greeting[greeting.startIndex])
 //MARK: predecessor() 后移一位 ，
 //endIndex   后移一位才是最后一位字符串
-print(greeting[greeting.endIndex.predecessor()])
+//print(greeting[greeting.endIndex.predecessor()])
 
 
 //MARK: successor()前移一位
-print(greeting[greeting.startIndex.successor()]);
+//print(greeting[greeting.startIndex.successor()]);
 
 //MARK: advancedBy()
 //从最开始偏移七个位置，是第8位
 let location = greeting.startIndex.advancedBy(7)
 
-print("\(greeting)======\(greeting[location])")
+//print("\(greeting)======\(greeting[location])")
 //MARK:通过位置遍历
 for index in greeting.characters.indices {
-    print("\(greeting[index])   ", terminator: "")
+    //print("\(greeting[index])   ", terminator: "")
 }
 
 //MARK: - 特定位置插入或者移除字符
@@ -101,49 +101,49 @@ var welcome = "hellow"
 //MARK:插入字符
 welcome.insert("!", atIndex: welcome.endIndex)
 
-print(welcome)
+//print(welcome)
 
 //MARK:插入字符串
 
 welcome.insertContentsOf(" everyone".characters, at: welcome.endIndex.predecessor())
-print(welcome)
+//print(welcome)
 
 //MARK:移除字符
 
 welcome.removeAtIndex(welcome.endIndex.predecessor())
 
-print(welcome)
+//print(welcome)
 
 //MARK:移除特定位置的字符串
 welcome.removeRange(welcome.endIndex.advancedBy(-6)..<welcome.endIndex)
 
-print(welcome)
+//print(welcome)
 
 //MARK: 截取字符串
 var newSubstring = welcome.substringFromIndex(welcome.startIndex.advancedBy(1))
 
-print(newSubstring);
+//print(newSubstring);
 
 welcome = "\(welcome) sss PPPP ssss"
 //rangeOfString(" ")获取的是字符串中第一个空格的位置
 let range = welcome.rangeOfString(" ")
-print("\(welcome) range ===  \(range!) ")
+//print("\(welcome) range ===  \(range!) ")
 
 let range2 = Range(start: welcome.startIndex, end: welcome.endIndex.predecessor())
 
-print("rang2 = \(range2)")
+//print("rang2 = \(range2)")
 
 newSubstring = welcome.substringToIndex(welcome.startIndex.advancedBy(5))
-print(newSubstring)
+//print(newSubstring)
 
 newSubstring = welcome.substringWithRange(range2)
-print(newSubstring)
+//print(newSubstring)
 
 let subArr = welcome.componentsSeparatedByString(" ")
-print(subArr)
+//print(subArr)
 
 let replaceString = welcome.stringByReplacingOccurrencesOfString(" ", withString: "  ")
-print("replaceString = \(replaceString)")
+//print("replaceString = \(replaceString)")
 
 //MARK: - 前缀与后缀hasPrefix(),hasSuffix()
 
@@ -159,23 +159,23 @@ var suffixCount:Int = 0
 
 for items in prefixAndsuffixArr {
     if items.hasPrefix("AAA BBB"){
-        print(items)
+        //print(items)
         prefixCount++
     }
     if items.hasSuffix(" cell"){
-        print(items)
+        //print(items)
         suffixCount++
     }
 }
 
-print("prefixAndSuffixArr has \(prefixCount) items like \"AAA BBB***\" and \(suffixCount) items like \"**** cell\"");
+//print("prefixAndSuffixArr has \(prefixCount) items like \"AAA BBB***\" and \(suffixCount) items like \"**** cell\"");
 
 //MARK: - unicode reprecentations of string
 
 let dogString = "dog!🐶"
 
 for codeUnit in dogString.utf8 {
-    print("codeUnit :\(codeUnit)",terminator: "     ")
+    //print("codeUnit :\(codeUnit)",terminator: "     ")
 }
 
 

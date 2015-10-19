@@ -16,7 +16,7 @@ var doubleNumber :Double = 12.0;
 
 var doubleNumber1,doubleNumber2 :Double
 
-//print(doubleNumber1 + doubleNumber2)
+////print(doubleNumber1 + doubleNumber2)
 
 var floatNumber :Float = 12.0;
 
@@ -30,4 +30,4 @@ var dict :Dictionary<String,String> =  ["key1": "value1","key2": "value2"]
 
 //
 //let myArryStudy = ArrayStudy();
-//print(myArryStudy.array);
+////print(myArryStudy.array);

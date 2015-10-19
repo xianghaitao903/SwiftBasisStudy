@@ -22,13 +22,13 @@ someInts = []
 
 var threeDouble = [Double](count: 3, repeatedValue: 0.0)
 
-print(threeDouble)
+//print(threeDouble)
 
 threeDouble.append(0.4);
 
 //var aaa =  threeDouble[6]
 
-print(threeDouble)
+//print(threeDouble)
 
 var foreInt = Array(count: 4, repeatedValue: 3)
 
@@ -46,19 +46,19 @@ var dictionary2: [Dictionary<String,Int>];
 var StringArrLength = StringArr.count;
 
 if StringArr.isEmpty {
-    print("StringArr is Empty")
+    //print("StringArr is Empty")
 } else {
-    print("StringArr is not Empty");
+    //print("StringArr is not Empty");
 }
 //MARK: - 修改元素的方法
 //MARK:增加元素
 StringArr.append("789");
 
-print("StringArr's length is \(StringArrLength) before append a item and is \(StringArr.count) after append")
+//print("StringArr's length is \(StringArrLength) before append a item and is \(StringArr.count) after append")
 
 StringArr += ["111","67"];
 
-print(StringArr);
+//print(StringArr);
 
 var firstItem = StringArr[0];
 
@@ -67,29 +67,29 @@ var firstItem = StringArr[0];
 
 StringArr[0] = "1"
 
-print(StringArr);
+//print(StringArr);
 //MARK:批量修改区间段的元素
 StringArr[2...4] = ["1","4","4","5"]
 
-print(StringArr)
+//print(StringArr)
 
 //MARK:特定位置插入
 StringArr.insert("xxx", atIndex: 0)
 
-print(StringArr)
+//print(StringArr)
 //MARK:特定位置移出
 let removeString = StringArr.removeAtIndex(2);
 
-print("After remove \(removeString) new Arr is \(StringArr)" )
+//print("After remove \(removeString) new Arr is \(StringArr)" )
 
 //MARK: - Array指针地址测试 与OC不同
 var newArr = StringArr
 
-print("newArr is \(newArr)")
+//print("newArr is \(newArr)")
 
 StringArr[0...3] = ["23"]
 
-print("while StringArr changed, newArr is \(newArr)")
+//print("while StringArr changed, newArr is \(newArr)")
 
 //MARK:另一种方式测试
 
@@ -97,11 +97,11 @@ var oldArray = [Int]();
 
 var newArray = oldArray;
 
-print(newArray)
+//print(newArray)
 
 oldArray.append(4);
 
-print("newArray === \(newArray)  old Arr === \(oldArray)")
+//print("newArray === \(newArray)  old Arr === \(oldArray)")
 
 
 //MARK: - 类指针地址测试 与OC相同
@@ -118,19 +118,19 @@ person.sex = "male"
 
 var person2 = person
 
-print(person2.sex!)
+//print(person2.sex!)
 
 person.sex = "female"
 
-print(person2.sex!)
+//print(person2.sex!)
 
 //MARK: - Array遍历
 for items in StringArr {
-    print(items);
+    //print(items);
 }
 
 for (index,value) in StringArr.enumerate() {
-    print("the value is \(value) at the index \(index) of StringArr");
+    //print("the value is \(value) at the index \(index) of StringArr");
 }
 
 
