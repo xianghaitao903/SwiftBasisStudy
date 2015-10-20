@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>ConditionalStatements.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>ControlFlow.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>DictionaryStudy.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -38,6 +48,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>95880D5A1BD3911500929F93</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9599D13F1BD65F58000FDC00</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9599D14A1BD66AB5000FDC00</key>
 		<dict>
 			<key>primary</key>
 			<true/>
