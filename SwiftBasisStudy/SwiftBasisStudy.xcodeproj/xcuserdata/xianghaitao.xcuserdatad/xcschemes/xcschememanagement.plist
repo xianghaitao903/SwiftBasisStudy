@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>ControlTransfer(continueBreakReturnThrow).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>DictionaryStudy.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -47,6 +52,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>954FC6551BD7CDC600F41C01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>95880D5A1BD3911500929F93</key>
 		<dict>
 			<key>primary</key>
