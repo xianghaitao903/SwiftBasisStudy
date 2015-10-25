@@ -49,9 +49,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>function.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>953D851B1BDCFCB000BED5F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>954FC6551BD7CDC600F41C01</key>
 		<dict>
 			<key>primary</key>

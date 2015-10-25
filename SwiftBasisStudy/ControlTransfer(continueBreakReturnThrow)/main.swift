@@ -71,7 +71,7 @@ print(description)
 
 //MARK:labeled statements 标记循环，然后在循环里面使用 break 跳出 ，continue 继续
 
-gameLoop : for i in 1...4 {
+gameLoop: for i in 1...4 {
     if i == 3 {
         print(i)
         break gameLoop
@@ -87,7 +87,7 @@ var case11 = 0
 var case77 = 0
 var case99 = 0
 
-gameLoop : while ++i < 100 {
+gameLoop: while ++i < 100 {
     
     switch i {
     case 1:

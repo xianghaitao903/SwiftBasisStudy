@@ -10,7 +10,7 @@ import Foundation
 
 //MARK: 初始化
 //MARK:初始化空的Dictionary
-var namesOfIntegers = [Int : String]()
+var namesOfIntegers = [Int: String]()
 
 if namesOfIntegers.isEmpty {
     print("nameofIntegers has no items")
@@ -69,7 +69,7 @@ if let oldValue = airports.removeValueForKey("APL") {
 //MARK:遍历Dictionary
 
 for (airportcode,airportName) in airports {
-    print("\(airportcode) : \(airportName)")
+    print("\(airportcode): \(airportName)")
 }
 
 for key in airports.keys {
