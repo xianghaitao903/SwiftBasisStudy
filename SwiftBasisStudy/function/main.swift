@@ -184,6 +184,54 @@ print(mathFunction(222,333))
 
 //MARK: Function Types as parameter Types
 
+func printMathResult(Mathfunction: (Int, Int) -> Int, _ a: Int, _ b: Int) {
+    print("result is \(Mathfunction(a,b))")
+}
+printMathResult(addTwoInts, 11, 22)
+
+printMathResult(multiplyTwoInts, 22, 55)
+
+//MARK: Function Types as return Types
+
+func stepForward(input: Int) -> Int {
+    return input + 1
+}
+
+func stepBack(input: Int) -> Int {
+    return input - 1
+}
+
+func chooseStepFunction(backwards: Bool) -> (Int) -> Int {
+    return backwards ? stepBack:stepForward
+}
+
+var currentValue = 3
+
+var moveToZero = chooseStepFunction(currentValue > 0)
+
+while currentValue != 0 {
+    print(currentValue)
+    currentValue = moveToZero(currentValue)
+}
+
+//MARK: Nested Function
+
+func chooseFunction(backwards: Bool) -> (Int) -> Int {
+    func stepForward1(a: Int) -> Int { return a + 1}
+    func stepBack1(b: Int) -> Int {return b - 1}
+    return backwards ? stepBack1 : stepForward1
+}
+
+currentValue = -8
+
+moveToZero = chooseFunction(currentValue > 0)
+
+while currentValue != 0 {
+    print(currentValue)
+    currentValue = moveToZero(currentValue)
+}
+
+
 
 
 
