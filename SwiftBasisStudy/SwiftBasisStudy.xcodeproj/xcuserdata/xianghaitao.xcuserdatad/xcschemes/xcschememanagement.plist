@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>Enumerations.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>Set.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -123,6 +128,11 @@
 			<true/>
 		</dict>
 		<key>95EF6F411BD137B6000E378A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>95F2D35C1BE0F7F8007AD45E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
