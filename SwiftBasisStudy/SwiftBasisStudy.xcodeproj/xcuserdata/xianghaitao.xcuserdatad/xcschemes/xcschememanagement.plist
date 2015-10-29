@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>ClassAndStructures.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>Closure.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -68,6 +73,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>9507AEF81BDFA40F00052869</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>952F9D2E1BE25510003BA320</key>
 		<dict>
 			<key>primary</key>
 			<true/>
