@@ -65,7 +65,7 @@ someVidoModel.frameRate = 1.0
 
 print("anotherVidoMpdel.frameRate is \(anotherVidoModel.frameRate)")
 
-//MARK: indentity Operators === !=== 
+//MARK: indentity Operators ===   和   !=== 
 
 if someVidoModel === anotherVidoModel {
     print("some and anotherVidoModel are the same class")
