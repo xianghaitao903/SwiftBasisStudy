@@ -49,6 +49,11 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>Initialization.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 		<key>Methods.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -143,6 +148,11 @@
 			<true/>
 		</dict>
 		<key>9599D14A1BD66AB5000FDC00</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>959E8B551BE8EE5D003D1BB0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
