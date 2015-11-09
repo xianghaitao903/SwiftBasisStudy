@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ARC.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 		<key>ArrayStudy.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -183,6 +188,11 @@
 			<true/>
 		</dict>
 		<key>95C741B71BF0E1A200D7AA14</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>95C741C21BF0E7FF00D7AA14</key>
 		<dict>
 			<key>primary</key>
 			<true/>
