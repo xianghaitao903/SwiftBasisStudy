@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>Deinitialization.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>DictionaryStudy.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -173,6 +178,11 @@
 			<true/>
 		</dict>
 		<key>95B720401BCFEDDA005A2DA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>95C741B71BF0E1A200D7AA14</key>
 		<dict>
 			<key>primary</key>
 			<true/>
