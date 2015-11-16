@@ -133,6 +133,96 @@ class City {
     }
 }
 
+//MARK: - strong references Cycles for closures
+//MARK: creating about
+class HTMLElement {
+    var name: String
+    var text: String?
+    
+    lazy var asHTML: Void -> String = {
+        if let text = self.text {
+            return "<\(self.name)>\(self.text)</\(self.name)>"
+        } else {
+            return "<\(self.name)/>"
+        }
+    }
+    
+    init(name: String, text: String? = nil) {
+        self.name = name
+        self.text = text
+    }
+    
+    deinit {
+        print("\(name) is being deinitialzed")
+    }
+    
+}
+
+let heading = HTMLElement(name: "h1")
+let defaultText = "some default text"
+heading.asHTML = {
+    return "<\(heading.name)>\(heading.text ?? defaultText)</\(heading.name)>"
+}
+
+print(heading.asHTML())
+
+var paragraph: HTMLElement? = HTMLElement(name: "p", text: "hello world")
+print(paragraph!.asHTML())
+paragraph = nil
+
+//MARK: Resolving Strong reference Cycles for closures
+
+//MARK: defining a Capture List
+class A {
+    var delegate: Protocol?
+    
+    lazy var someClosures:(Int, String) -> String = {
+    [unowned self, weak delegate = self.delegate!] (index: Int, stringToProcess: String) -> String in
+//        closure body goes here
+        return ""
+    }
+    
+    lazy var otherClosures: Void -> String = {
+        [unowned self, weak delegate = self.delegate!] () -> String in
+        //        closure body goes here
+        return ""
+    }
+
+}
+
+//weak and unowned references 
+
+class HTMLElement2 {
+    var name: String
+    var text: String?
+    
+    lazy var asHTML: Void -> String = {
+       [ unowned self ] in
+        if let text = self.text {
+            return "<\(self.name)>\(text)</\(self.name)>"
+        } else {
+            return "<\(self.name)/>"
+        }
+    }
+    
+    init(name: String, text: String? = nil) {
+        self.name = name
+        self.text = text
+    }
+    
+    deinit {
+        print("\(self.name) is being deinitized")
+    }
+    
+}
+
+var span: HTMLElement2? = HTMLElement2(name: "span", text: "hello world")
+print(span!.asHTML())
+span = nil
+
+
+
+
 
 
 
