@@ -69,6 +69,11 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>OptionChaining.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>Properties.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -108,6 +113,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>9507AEF81BDFA40F00052869</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9528CF8B1BFA18E2001807A6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
