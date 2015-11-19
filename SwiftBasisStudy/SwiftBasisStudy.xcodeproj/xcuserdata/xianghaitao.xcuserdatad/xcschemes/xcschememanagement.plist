@@ -109,6 +109,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TypeCasting.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
 		<key>function.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -163,6 +168,11 @@
 			<true/>
 		</dict>
 		<key>958662BC1BFE023100CC54D2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>958662C71BFE142300CC54D2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
