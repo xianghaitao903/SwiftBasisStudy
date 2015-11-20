@@ -59,6 +59,11 @@
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
+		<key>Extensions.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
 		<key>Inheritance.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -73,6 +78,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>14</integer>
+		</dict>
+		<key>NestedType.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
 		</dict>
 		<key>OptionChaining.xcscheme</key>
 		<dict>
@@ -243,6 +253,16 @@
 			<true/>
 		</dict>
 		<key>95F2D35C1BE0F7F8007AD45E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>95F4B2A91BFF5C5700F23250</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>95F4B2B41BFF625300F23250</key>
 		<dict>
 			<key>primary</key>
 			<true/>
