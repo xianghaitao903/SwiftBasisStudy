@@ -94,6 +94,11 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>Protocols.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
 		<key>Set.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -173,6 +178,11 @@
 			<true/>
 		</dict>
 		<key>955107AF1BE78458006436A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9564505D1C033F9300685709</key>
 		<dict>
 			<key>primary</key>
 			<true/>
