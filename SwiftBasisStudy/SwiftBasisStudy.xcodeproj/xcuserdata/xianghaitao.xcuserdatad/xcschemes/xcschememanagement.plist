@@ -64,6 +64,11 @@
 			<key>orderHint</key>
 			<integer>24</integer>
 		</dict>
+		<key>Generics.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
 		<key>Inheritance.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -233,6 +238,11 @@
 			<true/>
 		</dict>
 		<key>95B720401BCFEDDA005A2DA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>95C593AF1C04906D00DA1B44</key>
 		<dict>
 			<key>primary</key>
 			<true/>
