@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
+		<key>AccessControl.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
 		<key>ArrayStudy.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -158,6 +163,11 @@
 			<true/>
 		</dict>
 		<key>953D851B1BDCFCB000BED5F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9544FD421C05EAEF0097F76A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
