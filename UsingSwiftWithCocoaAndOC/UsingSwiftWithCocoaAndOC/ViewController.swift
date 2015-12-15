@@ -21,7 +21,13 @@ class ViewController: UIViewController {
         
         
     }
-
+    
+    func initTableView() {
+        let myTableView: UITableView = UITableView(frame: CGRectZero, style: .Grouped)
+        self.view.addSubview(myTableView)
+        let backGroundColor: UIColor = UIColor(red: 0.2, green: 0.2, blue: 0.2, alpha: 1)
+        myTableView.backgroundColor = backGroundColor
+    }
 
 }
 

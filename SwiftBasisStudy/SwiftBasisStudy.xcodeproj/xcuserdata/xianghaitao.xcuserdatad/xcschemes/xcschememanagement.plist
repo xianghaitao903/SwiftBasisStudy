@@ -139,6 +139,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
 		<key>TypeCasting.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -218,6 +223,11 @@
 			<true/>
 		</dict>
 		<key>95880D5A1BD3911500929F93</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9589D38A1C1F21A40001D9F6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
