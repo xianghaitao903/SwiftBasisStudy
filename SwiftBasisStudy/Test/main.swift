@@ -50,9 +50,15 @@ class Robot: Machine {
     }
 }
 
-var robot = Robot();
+func getWeekAgoFromDate(startDateString: String) {
+    let dateFormatter = NSDateFormatter();
+    dateFormatter.dateFormat = "MM/dd/yyyy";
+    let startDate = dateFormatter.dateFromString(startDateString);
+    let intervalDoubleValue =  60 * 60 * 24 * 7;
+    let interval = NSTimeInterval(-intervalDoubleValue);
+    let resutltDate = NSDate(timeInterval: interval, sinceDate: startDate!);
+    print(dateFormatter.stringFromDate(resutltDate));
+}
 
-robot.move("Up")
-print(robot.location.x)
-
+getWeekAgoFromDate("01/04/2016")
 
