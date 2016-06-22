@@ -31,6 +31,8 @@ threeDouble.append(0.4);
 //print(threeDouble)
 
 var foreInt = Array(count: 4, repeatedValue: 3)
+//foreInt[5] = 10;
+foreInt.append(6);
 
 // MARK: - 数组声明
 var intArr: [Int];
