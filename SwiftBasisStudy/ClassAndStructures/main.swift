@@ -37,6 +37,9 @@ print("the width of someResolution's width = \(someResolution.width)")
 
 someVidoModel.resolution = someResolution
 
+someVidoModel.name = "haha";
+print(someVidoModel.name)
+
 someResolution.width = 110
 
 print("the width of someResolution's width = \(someResolution.width)")

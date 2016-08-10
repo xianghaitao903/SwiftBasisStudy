@@ -29,12 +29,12 @@ for _ in 1...power {
 print("\(base) to the power of \(power) is \(answer)")
 
 //MARK:传统的循环
-for var index = 0; index < 3;index++ {
+for index in 0 ..< 3 {
     print("index is \(index)")
 }
 
 var index :Int
-for index = 0;index < 3;++index {
+for index = 0;index < 3;index += 1 {
     print("index is \(index)")
 }
 

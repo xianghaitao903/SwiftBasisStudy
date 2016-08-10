@@ -4,7 +4,4 @@
    <FileRef
       location = "group:SwiftBasisStudy/SwiftBasisStudy.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:UsingSwiftWithCocoaAndOC/UsingSwiftWithCocoaAndOC.xcodeproj">
-   </FileRef>
 </Workspace>

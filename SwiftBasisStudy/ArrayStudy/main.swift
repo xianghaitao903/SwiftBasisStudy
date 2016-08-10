@@ -136,6 +136,8 @@ for (index,value) in StringArr.enumerate() {
 }
 
 
+var arr :Array<Int> = [12,12,111];
 
+print("\(arr[0])");
 
 
