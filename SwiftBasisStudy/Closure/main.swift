@@ -85,15 +85,15 @@ func makeIncrementer(forIncrementer amount: Int) -> () -> Int {
 
 let incrementByTen = makeIncrementer(forIncrementer: 10)
 
-//print(incrementByTen())
+print(incrementByTen())
 
-//print(incrementByTen())
+print(incrementByTen())
 
 let incrementBySeven = makeIncrementer(forIncrementer: 7)
 
-//print(incrementBySeven())
+print(incrementBySeven()) //7
 
-//print(incrementBySeven())
+print(incrementBySeven())  //14
 
 //MARK: closures are reference Types
 

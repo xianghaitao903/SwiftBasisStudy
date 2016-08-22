@@ -19,9 +19,12 @@ var letters = Set<Character>()
 //print("letters is of type Set<Character>  with \(letters.count) items ");
 
 letters.insert("a")
-
+letters.insert("a");
 //letters = [] 后letters 为空
-letters = [];
+
+print(letters);
+letters = ["a","b","a"];
+print(letters);
 
 var favoriteGenres: Set<String> = ["Rock","classical","Hiphop"]
 
@@ -66,7 +69,7 @@ for item in favoriteGenres.sort() {
 var a :Set = ["aaa","bbb","ccc"]
 var c :Set = ["bbb","ccc","ddd"]
 
-var d = a.intersect(c)
+var d = a.intersect(c);
 //print(d)
 
 var e = a.exclusiveOr(c)
